@@ -22,7 +22,7 @@ public class ImageController {
             model.addAttribute("name", "SE");
             model.addAttribute("elecnum", "Bad");
             String line = null;
-            try(BufferedReader bufferedReader = new BufferedReader(new FileReader("xd.txt"))){
+            try(BufferedReader bufferedReader = new BufferedReader(new FileReader("xd.jpeg"))){
                 line = bufferedReader.readLine();
             }catch(IOException e){
                 System.out.println(e.getMessage());
